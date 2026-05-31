@@ -71,3 +71,4 @@ The original PDF remains stored for 7-year retention and for reprocessing when t
 
 - [README.md](../../README.md) — flows and prototype vs production table
 - [docs/architecture.md](../architecture.md) — sequences, ERD, scalability
+- [System design diagram](../images/large-pdf-processing-system-design.png) — production target architecture (PNG)

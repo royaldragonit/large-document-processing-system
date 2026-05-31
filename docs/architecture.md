@@ -6,6 +6,12 @@ Architecture for the **Large Document Processing** technical exercise (construct
 
 **Architecture decision:** [ADR 0001: Use Page-Level Artifacts for Browser Rendering](adr/0001-use-page-level-artifacts.md) — why reads never parse the full PDF and how this meets the sub-2-second page SLA.
 
+## System design diagram
+
+Production target architecture (CDN, durable queue, worker pool, object storage, Redis). The repository prototype implements the same **boundaries** with local substitutes—see [Prototype vs Production Components](#prototype-vs-production-components) and the Mermaid diagrams below.
+
+![Large PDF Document Processing — System Design](images/large-pdf-processing-system-design.png)
+
 ## 1. High-level architecture
 
 The system separates **write** (upload + async processing) from **read** (page artifacts only). Clean Architecture layers:

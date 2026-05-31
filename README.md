@@ -4,6 +4,12 @@ Technical exercise submission: a construction-plan document platform where users
 
 **Start here for reviewers:** [SUBMISSION.md](SUBMISSION.md)
 
+## System Design Diagram
+
+Production target architecture (full cloud-scale design). The local prototype implements a simplified subset—see [Prototype vs Production Components](#prototype-vs-production-components).
+
+![Large PDF Document Processing — System Design](docs/images/large-pdf-processing-system-design.png)
+
 ## Problem summary
 
 - **50,000** active users  

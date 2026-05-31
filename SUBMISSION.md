@@ -104,6 +104,10 @@ The table below separates what runs locally from the production target. **Redis,
 
 ## 5. Production Architecture
 
+![Large PDF Document Processing — System Design](docs/images/large-pdf-processing-system-design.png)
+
+*Figure: production target system design. The runnable prototype uses local disk, an in-memory queue, and placeholder SVG artifacts—see [Prototype vs Production Components](#prototype-vs-production-components).*
+
 ```
 Client
   → Load Balancer
